@@ -9,3 +9,54 @@ body {
 .bg-black {
   background-color: black;
 }
+
+.bg-btn-black {
+  background-color: #363636;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-grey {
+  background-color: #bebcbb;
+}
+
+.bg-btn-grey {
+  background-color: #d9dadc;
+}
+
+.bg-darkblue {
+  background-color: #161c3b;
+}
+
+.bg-blue {
+  background-color: #00439c;
+}
+
+.bg-btn-blue {
+  background-color: #2d64e6;
+}
+
+.bg-btn-red {
+  background-color: #cd3d0f;
+}
+
+.my-btn {
+  padding: 20px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.text-grey {
+  color: grey;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-blue {
+  color: #2d64e6;
+}
