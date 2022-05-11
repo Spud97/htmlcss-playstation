@@ -2,6 +2,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+  font-size: 0.9rem;
+}
+
 .debug {
   border: 1px dashed red;
 }
@@ -43,14 +47,18 @@ body {
 }
 
 .my-btn {
-  padding: 20px;
+  padding: 6px 10px;
   border: 1px solid transparent;
-  border-radius: 10px;
+  border-radius: 20px;
   text-align: center;
 }
 
 .text-grey {
   color: grey;
+}
+
+.text-black {
+  color: black;
 }
 
 .text-white {
@@ -59,4 +67,12 @@ body {
 
 .text-blue {
   color: #2d64e6;
+}
+
+.font-sm {
+  font-size: 0.8rem;
+}
+
+.z-index-1020 {
+  z-index: 1020;
 }

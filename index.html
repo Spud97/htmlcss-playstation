@@ -11,11 +11,15 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
-    <header>
+    <header class="sticky-top z-index-1020">
       <!-- barra nera -->
       <div class="debug bg-black d-flex justify-content-end">
         <div class="debug pe-2">
@@ -24,9 +28,50 @@
       </div>
 
       <!-- navbar principale -->
-      <nav class="debug d-flex justify-content-between">
-        <div class="debug p-4"></div>
-        <div class="debug p-4"></div>
+      <nav class="debug justify-content-between navbar py-0 px-2 bg-white">
+        <div class="debug d-flex align-items-center">
+          <img class="" src="img/play_logo.svg" alt="" />
+          <ul class="navbar-nav d-flex flex-row">
+            <li class="nav-item d-flex align-items-center ps-3">
+              <a class="nav-link text-black pe-2" href="#">Giochi</a>
+              <i class="fa-solid fa-angle-down text-grey font-sm"></i>
+            </li>
+            <li class="nav-item d-flex align-items-center ps-3">
+              <a class="nav-link text-black pe-2" href="#">Hardware</a>
+              <i class="fa-solid fa-angle-down text-grey font-sm"></i>
+            </li>
+            <li class="nav-item d-flex align-items-center ps-3">
+              <a class="nav-link text-black pe-2" href="#">Servizi</a>
+              <i class="fa-solid fa-angle-down text-grey font-sm"></i>
+            </li>
+            <li class="nav-item d-flex align-items-center ps-3">
+              <a class="nav-link text-black pe-2" href="#">Novità</a>
+              <i class="fa-solid fa-angle-down text-grey font-sm"></i>
+            </li>
+            <li class="nav-item d-flex align-items-center ps-3">
+              <a class="nav-link text-black pe-2" href="#">Fai acquisti</a>
+              <i class="fa-solid fa-angle-down text-grey font-sm"></i>
+            </li>
+            <li class="nav-item d-flex align-items-center ps-3">
+              <a class="nav-link text-black pe-2" href="#">Supporto</a>
+              <i class="fa-solid fa-angle-down text-grey font-sm"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="debug d-flex align-items-center">
+          <ul class="navbar-nav d-flex flex-row">
+            <li class="nav-item d-flex align-items-center">
+              <a class="nav-link text-black pe-2" href="#">My PlayStation</a>
+              <i class="fa-solid fa-angle-down text-grey font-sm"></i>
+            </li>
+            <li class="nav-item d-flex align-items-center px-3">
+              <button class="my-btn text-white bg-btn-black">Accedi</button>
+            </li>
+            <li class="nav-item d-flex align-items-center px-2">
+              <i class="fa-solid fa-magnifying-glass fs-6"></i>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
 
