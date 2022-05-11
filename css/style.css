@@ -6,6 +6,12 @@ header {
   font-size: 0.9rem;
 }
 
+#sec-1 {
+  background-image: url(../img/jumbo-bg.png);
+  background-position: center;
+  padding:345px 0px 30px;
+}
+
 .debug {
   border: 1px dashed red;
 }
@@ -70,7 +76,7 @@ header {
 }
 
 .font-sm {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .z-index-1020 {
