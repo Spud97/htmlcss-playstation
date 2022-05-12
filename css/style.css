@@ -6,6 +6,11 @@ header {
   font-size: 0.9rem;
 }
 
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
 #sec-returnal {
   background-image: url(../img/jumbo-bg.png);
   background-position: center;
@@ -18,6 +23,10 @@ header {
   background-position: center;
   background-size: cover;
   padding:345px 0px 30px;
+}
+
+#sie-logo {
+  height: 50px;
 }
 
 .debug {

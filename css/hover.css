@@ -6,6 +6,7 @@
 .slide-card:hover {
   transform: translateY(-10px);
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .ghost-card {
@@ -15,4 +16,13 @@
 .ghost-card:hover {
   opacity: 1;
   border-bottom: 3px solid #2d64e6;
+  cursor: pointer;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.social:hover {
+  cursor: pointer;
 }
