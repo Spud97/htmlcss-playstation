@@ -9,10 +9,6 @@
   cursor: pointer;
 }
 
-.ghost-card {
-  opacity: 0.7;
-}
-
 .ghost-card:hover {
   opacity: 1;
   border-bottom: 3px solid #2d64e6;
@@ -25,4 +21,33 @@
 
 .social:hover {
   cursor: pointer;
+}
+
+.btn-black:hover {
+  border: 2px solid white;
+  box-shadow: 0 0 0 3px #363636;
+  transition: 0.4s;
+}
+
+.btn-red:hover {
+  border: 2px solid black;
+  box-shadow: 0 0 0 3px #cd3d0f;
+  transition: 0.4s;
+}
+
+.btn-blue:hover {
+  border: 2px solid white;
+  box-shadow: 0 0 0 3px #2d64e6;
+  transition: 0.4s;
+}
+
+.btn-grey:hover {
+  box-shadow: 0 0 0 3px #d9dadc;
+  transition: 0.4s;
+}
+
+.btn-white:hover {
+  border: 2px solid black;
+  box-shadow: 0 0 0 3px white;
+  transition: 0.4s;
 }

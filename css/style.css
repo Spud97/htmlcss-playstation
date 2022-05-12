@@ -37,6 +37,10 @@ a {
   border: none;
 }
 
+.ghost-card {
+  opacity: 0.7;
+}
+
 .card-tony {
   background-image: url(../img/tony-hawks-pro-skater-1-2-store-art.jpg);
   height: 9rem;
