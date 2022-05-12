@@ -6,14 +6,40 @@ header {
   font-size: 0.9rem;
 }
 
-#sec-1 {
+#sec-returnal {
   background-image: url(../img/jumbo-bg.png);
   background-position: center;
+  background-size: cover;
+  padding:345px 0px 30px;
+}
+
+#sec-it-takes-two {
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-position: center;
+  background-size: cover;
   padding:345px 0px 30px;
 }
 
 .debug {
   border: 1px dashed red;
+}
+
+.card {
+  border: none;
+}
+
+.card-tony {
+  background-image: url(../img/tony-hawks-pro-skater-1-2-store-art.jpg);
+  height: 9rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.card-crash {
+  background-image: url(../img/crash-bandicoot-4-its-about-time-store-art.jpg);
+  height: 9rem;
+  background-position: center;
+  background-size: cover;
 }
 
 .bg-black {
@@ -59,6 +85,15 @@ header {
   text-align: center;
 }
 
+.my-rounded {
+  border-radius: 20px;
+}
+
+.social {
+  height: 120px;
+  width: 120px;
+}
+
 .text-grey {
   color: grey;
 }
@@ -81,4 +116,8 @@ header {
 
 .z-index-1020 {
   z-index: 1020;
+}
+
+.pe-6 {
+  padding-right: 4rem;
 }
