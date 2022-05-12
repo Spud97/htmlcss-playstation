@@ -32,7 +32,7 @@
       <nav class="debug justify-content-between navbar py-0 px-2 bg-white">
         <div class="debug d-flex align-items-center">
           <img class="" src="img/play_logo.svg" alt="" />
-          <ul class="navbar-nav d-flex flex-row">
+          <ul class="navbar-nav d-lg-flex flex-row d-none">
             <li class="nav-item d-flex align-items-center ps-3">
               <a class="nav-link text-grey become-black pe-2" href="#"
                 >Giochi</a
@@ -84,7 +84,18 @@
           </ul>
         </div>
         <div class="debug d-flex align-items-center">
-          <ul class="navbar-nav d-flex flex-row">
+          <button
+            class="navbar-toggler ms-auto d-lg-none"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarToggleExternalContent3"
+            aria-controls="navbarToggleExternalContent3"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="navbar-nav d-lg-flex d-none flex-row">
             <li class="nav-item d-flex align-items-center">
               <a class="nav-link text-grey become-black pe-2" href="#"
                 >My PlayStation</a
@@ -94,7 +105,9 @@
               ></i>
             </li>
             <li class="nav-item d-flex align-items-center px-3">
-              <button class="my-btn text-white bg-btn-black btn-black">Accedi</button>
+              <button class="my-btn text-white bg-btn-black btn-black">
+                Accedi
+              </button>
             </li>
             <li class="nav-item d-flex align-items-center px-2">
               <i class="fa-solid fa-magnifying-glass fs-6"></i>
@@ -109,7 +122,7 @@
       <div id="sec-returnal" class="debug section">
         <div class="debug container">
           <div class="row">
-            <div class="debug col-4 py-4">
+            <div class="debug col-lg-4 col-xs-12 py-4">
               <img
                 src="img/returnal-hero-banner-logo.png"
                 style="height: 35px"
@@ -130,7 +143,7 @@
       </div>
       <div class="debug section py-4">
         <div class="container">
-          <div class="row row-cols-6">
+          <div class="row row-cols-xxl-6 row-cols-sm-3 row-cols-2">
             <div class="col py-2">
               <div class="card mx-1 slide-card">
                 <img
@@ -204,7 +217,7 @@
           </div>
           <div class="row">
             <div
-              class="debug py-4 pe-3 col-5 d-flex flex-column justify-content-center align-items-start"
+              class="debug py-4 pe-3 col-md-5 col-12 d-flex flex-column justify-content-center align-items-start"
             >
               <h2 class="pb-3">Console PlayStation 5</h2>
               <span class="text-grey mb-4 d-inline-block"
@@ -215,7 +228,7 @@
                 Maggiori informazioni
               </button>
             </div>
-            <div class="debug py-4 col-7">
+            <div class="debug py-4 col-md-7 col-12">
               <img
                 src="img/playstation-5-thumb.png"
                 style="width: 100%"
@@ -223,7 +236,7 @@
               />
             </div>
           </div>
-          <div class="row row-cols-5">
+          <div class="row row-cols-md-5 row-cols-3">
             <div class="debug col ghost-card">
               <div class="px-5 py-2">
                 <img
@@ -278,7 +291,7 @@
       <div id="sec-it-takes-two" class="debug section">
         <div class="container">
           <div class="row">
-            <div class="debug col-4 py-4 pe-6">
+            <div class="debug col-lg-4 col-12 py-4 pe-6">
               <h2 class="text-white pt-4 pb-3">
                 Un'avventura cooperativa selvaggia ti attende
               </h2>
@@ -302,7 +315,7 @@
           <h3 class="text-white">
             Giochi incredibili per PS4 e PS5 disponibili ora
           </h3>
-          <div class="row row-cols-6">
+          <div class="row row-cols-lg-6 row-cols-sm-3 row-cols-2">
             <div class="col py-2">
               <div class="card card-tony mx-2 my-rounded"></div>
               <div class="text-white px-2 font-sm">
@@ -340,7 +353,7 @@
               </div>
             </div>
           </div>
-          <div class="row row-cols-6">
+          <div class="row row-cols-lg-6 row-cols-sm-3 row-cols-2">
             <div class="col py-2">
               <div class="card card-tony mx-2 my-rounded"></div>
               <div class="text-white px-2 font-sm">
@@ -393,7 +406,7 @@
               </div>
             </div>
           </div>
-          <div class="row row-cols-3">
+          <div class="row row-cols-md-3 row-cols-1">
             <div class="debug col py-4">
               <div>
                 <img
@@ -459,7 +472,7 @@
         <div class="container">
           <div class="row">
             <div
-              class="debug col-6 py-4 pe-5 d-flex justify-content-center align-items-start flex-column"
+              class="debug col-md-6 col-12 py-4 pe-5 d-flex justify-content-center align-items-start flex-column"
             >
               <img src="img/ps-plus-logo.png" style="width: 70%" alt="" />
               <p class="font-sm pt-4">
@@ -467,11 +480,13 @@
                 multigiocatore online, giochi mensili, sconti esclusivi e altro
                 ancora.
               </p>
-              <button class="my-btn text-blue bg-btn-grey font-sm mt-2 btn-grey">
+              <button
+                class="my-btn text-blue bg-btn-grey font-sm mt-2 btn-grey"
+              >
                 Esplora PlayStation Plus
               </button>
             </div>
-            <div class="debug col-6">
+            <div class="debug col-6 d-none d-md-block">
               <img
                 src="img/ps-plus-april-monthly-games-featured-image-block.png"
                 style="width: 85%"
@@ -494,7 +509,7 @@
               </div>
             </div>
           </div>
-          <div class="row row-cols-3">
+          <div class="row row-cols-md-3 row-cols-1">
             <div class="debug col py-4">
               <img
                 src="img/playstation-store-games-under-20-spotlight.jpg"
@@ -525,7 +540,7 @@
         <div class="container">
           <div class="row">
             <div
-              class="debug col-6 py-4 pe-5 d-flex justify-content-center align-items-start flex-column"
+              class="debug col-md-6 col-12 py-4 pe-5 d-flex justify-content-center align-items-start flex-column"
             >
               <img
                 src="img/ps-now-logo-two-column.png"
@@ -541,7 +556,7 @@
                 Esplora PlayStation Now
               </button>
             </div>
-            <div class="debug col-6">
+            <div class="debug col-6 d-none d-md-block">
               <img
                 src="img/ps-now-april-featured-image-block.png"
                 style="width: 85%"
@@ -561,18 +576,22 @@
             </div>
           </div>
           <div class="row">
-            <div class="debug col py-4 d-flex justify-content-center">
-              <div class="social d-inline-block px-2">
-                <img src="img/twitter.jpg" style="width: 100%" alt="" />
+            <div class="debug col py-4 d-flex align-items-center justify-content-center flex-column flex-sm-row">
+              <div class="d-sm-inline-block">
+                <div class="social d-inline-block px-2">
+                  <img src="img/twitter.jpg" style="width: 100%" alt="" />
+                </div>
+                <div class="social d-inline-block px-2">
+                  <img src="img/facebook.jpg" style="width: 100%" alt="" />
+                </div>
               </div>
-              <div class="social d-inline-block px-2">
-                <img src="img/facebook.jpg" style="width: 100%" alt="" />
-              </div>
-              <div class="social d-inline-block px-2">
-                <img src="img/instagram.jpg" style="width: 100%" alt="" />
-              </div>
-              <div class="social d-inline-block px-2">
-                <img src="img/youtube.png" style="width: 100%" alt="" />
+              <div class="d-sm-inline-block">
+                <div class="social d-inline-block px-2">
+                  <img src="img/instagram.jpg" style="width: 100%" alt="" />
+                </div>
+                <div class="social d-inline-block px-2">
+                  <img src="img/youtube.png" style="width: 100%" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -583,7 +602,7 @@
     <footer class="debug section bg-blue py-5">
       <div class="container">
         <div class="row">
-          <div class="debug col-6 py-4">
+          <div class="debug col-lg-6 col-12 py-4">
             <div>
               <svg
                 class="shared-nav-ps-logo"
@@ -617,15 +636,15 @@
               >
             </div>
           </div>
-          <div class="debug col-6 py-4 d-flex">
-            <div class="debug col-4 d-flex flex-column">
+          <div class="debug col-lg-6 col-12 py-4 d-flex flex-column flex-md-row">
+            <div class="debug col-md-4 col-12 d-flex flex-column">
               <a class="text-white font-sm pb-1">Link footer n</a>
               <a class="text-white font-sm pb-1">Link footer n</a>
               <a class="text-white font-sm pb-1">Link footer n</a>
               <a class="text-white font-sm pb-1">Link footer n</a>
               <a class="text-white font-sm pb-1">Link footer n</a>
             </div>
-            <div class="debug col-4 d-flex flex-column">
+            <div class="debug col-md-4 col-12 d-flex flex-column">
               <a class="text-white font-sm pb-1">Link footer n</a>
               <a class="text-white font-sm pb-1">Link footer n</a>
               <a class="text-white font-sm pb-1">Link footer n</a>
@@ -634,13 +653,13 @@
               <a class="text-white font-sm pb-1">Link footer n</a>
               <a class="text-white font-sm pb-1">Link footer n</a>
             </div>
-            <div class="debug col-4 d-flex flex-column">
+            <div class="debug col-md-4 col-12 d-flex flex-column">
               <a class="text-white font-sm pb-1">Link footer n</a>
               <a class="text-white font-sm pb-1">Link footer n</a>
               <a class="text-white font-sm pb-1">Link footer n</a>
             </div>
           </div>
-          <div class="debug col-6 py-4">
+          <div class="debug col-lg-6 col-12 py-4">
             <div id="sie-logo">
               <img src="img/sie-logo.svg" style="height: 100%" alt="" />
             </div>
@@ -649,7 +668,8 @@
               i contenuti, nomi dei giochi, nomi commerciali elo di
               abbigliamento, marchi registrati, grafica e immagini associati
               sono marchi registrati e/o materiale protetto da copyright dei
-              rispettivi proprietari. Tutti i diritti riservati. <a href="" style="text-decoration: underline;">Maggiori info</a> 
+              rispettivi proprietari. Tutti i diritti riservati.
+              <a href="" style="text-decoration: underline">Maggiori info</a>
             </p>
           </div>
         </div>
